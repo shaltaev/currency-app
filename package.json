@@ -13,7 +13,7 @@
   },
   "lint-staged": {
     "src/**/*.+(ts|tsx)": [
-      "eslint"
+      "yarn lint"
     ],
     "src/**/*.{js,jsx,ts,tsx,json,css,md}": [
       "prettier --write"
